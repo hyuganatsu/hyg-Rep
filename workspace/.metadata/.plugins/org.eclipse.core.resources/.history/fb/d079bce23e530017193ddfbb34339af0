@@ -15,7 +15,7 @@ public class LoginToMenu extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("サーブレット");
 		getServletConfig().getServletContext().
-		getRequestDispatcher("/menu.jsp" ).
+		getRequestDispatcher("/jsp/result.jsp" ).
 		forward( request, response );
 	}
 
