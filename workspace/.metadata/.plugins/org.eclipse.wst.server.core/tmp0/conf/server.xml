@@ -124,7 +124,11 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
+<<<<<<< HEAD
+      <Context docBase="C:\Users\hyuganatsu\Desktop\Git2\hyg-Rep\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\hyuganatsu\Desktop\Git2\hyg-Rep\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\TeMS" path="/TeMS" reloadable="false" source="org.eclipse.jst.jee.server:TeMS"/></Host>
+=======
       <Context docBase="C:\Users\hyuganatsu\Desktop\Git1\hyg-Rep\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\hyuganatsu\Desktop\Git1\hyg-Rep\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\TeMS" path="/TeMS" reloadable="false" source="org.eclipse.jst.jee.server:TeMS"/></Host>
+>>>>>>> a1ad9787ee2a1c7f9a8f751c3c6c1805f8878969
     </Engine>
   </Service>
 </Server>
