@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>メニュー画面</title>
+<title>機能画面</title>
 </head>
 <body>
-メニュー画面だよ
-<form method="post" action="/TeMS/stp/MenuToFunction">
-<input type="submit" value="OK"/>
-</form>
+機能画面だよ
 </body>
 </html>
