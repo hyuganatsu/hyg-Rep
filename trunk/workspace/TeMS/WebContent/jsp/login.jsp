@@ -7,9 +7,13 @@
 <title>ログイン画面</title>
 </head>
 <body>
-ログイン画面だよ
+<center>
+<h2>交通費管理システム</h2>
 <form method="post" action="/TeMS/stp/LoginToMenu">
-<input type="submit" value="OK"/>
+社員ID<input type="text" name="社員ID"/><br><br>
+パスワード<input type="text" name="パスワード"/><br><br>
+<input type="submit" value="ログイン"/>
 </form>
+</center>
 </body>
 </html>
